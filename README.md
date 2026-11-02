@@ -1,7 +1,8 @@
-# Laprometer
+# Larpometer
 
 Eine Web-Applikation, welche 4 vordefinierte Themen, die viel gelarped werden beinhaltet. Man kann eines dieser 4 Themen wählen und herausfinden ob man selbst ein Larper ist, indem man kurz 10 Fragen beantwortet.
-Es gibt mehr Larper als je zuvor in der Geschichte der Menschheit. Wir kämpfen mit dieser Web-APP gegen Larper.
+Es gibt mehr Larper als je zuvor in der Geschichte der Menschheit. Wir haben uns dazu entschieden aktiv gegen Larper zu kämpfen, indem wir die Web-Applikation Larpometer erstellen
+
 # BBZBL Modul 324: Web-Applikation Template
 
 Dieses Template dient als Vorlage zum Starten eures Projekts.
