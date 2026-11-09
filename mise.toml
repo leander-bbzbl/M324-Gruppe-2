@@ -1,4 +1,5 @@
 [tools]
 node = "lts"
+python = "3.13"
 ruby = "3.4.2"
 terraform = "1.12.2"

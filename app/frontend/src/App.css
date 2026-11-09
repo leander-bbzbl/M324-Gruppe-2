@@ -1,0 +1,10 @@
+main {
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: #6941c6;
+}

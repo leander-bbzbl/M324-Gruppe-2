@@ -214,3 +214,8 @@ terraform.rc
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,terraform,node
 
+### Python and SQLite ###
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
