@@ -1,21 +1,32 @@
-# Dokumentation
+# Laprometer
 
-Hier im Ordner `/docs` ist Platz für allgemeine Dokumentation, wobei Ihr im Unterordner `/docs/reflections`
-eure Sprint-Reflexionen schreiben sollt.
+Eine Web-Applikation, welche 4 vordefinierte Themen, die viel gelarped werden beinhaltet. Man kann eines dieser 4 Themen wählen und herausfinden ob man selbst ein Larper ist, indem man kurz 10 Fragen beantwortet.
+Es gibt mehr Larper als je zuvor in der Geschichte der Menschheit. Wir kämpfen mit dieser Web-APP gegen Larper.
+# BBZBL Modul 324: Web-Applikation Template
 
-## Aufgaben
+Dieses Template dient als Vorlage zum Starten eures Projekts.
 
-Erstellt für jedes Projektmitglied einen Unterordner. z.B. `/docs/reflections/hodel`.
-In diesem Unterordner soll für die zwei Sprints die jeweilige Reflexion geschrieben werden.
-
-1. Unterordner mit Nachname erstellen
-2. `/docs/ihr-nachname/reflexion-sprint1.md` erstellen
-3. Die Reflexion schreiben
+Ziel ist es ein Repository zu erstellen, welches, [wie das Muster](https://github.com/herrhodel/modul-324-muster) eine
+Web-Applikation enthält, welche automatisch getestet, gebaut, released und deployed wird.
 
 > [!NOTE]
-> Die Reflexion soll in einem eigenen Branch geschrieben werden. Für diese soll einen Pull-Request erstellt werden.
+> Die Web-Applikation muss in einem Ordner `/app` erstellt werden. Ansonsten müssen Folgescripts angepasst werden.
 
-> [!TIP]
-> die Commit-Message sollte diese Konvention haben
+Je nach Thema, können vom Muster die Grundlagen kopiert und abgeändert werden.
+Natürlich soll dieses Repo nicht nur ein Nginx sondern eine eigene Applikation beinhalten.
+
+**Wieso nicht direkt das Muster als Grundlage?**
+
+Dies war tatsächlich mal so. Die Erfahrung hat gezeigt, dass die Komplexität
+das Verständnis erschwert. Die Idee ist, dass die einzelnen Schritte bewusster
+umgesetzt werden und man nicht am Anfang vor lauter Bäume den Wald nicht mehr sieht.
+
+In der ersten Woche wird bewusst das Muster bei allen zum Laufen gebracht. Dies
+soll ermöglichen, dass ein Gesamtüberblick von Anfang an existiert.
+
+> [!NOTE]
+> Vorgegebene Ordnerstruktur
+> Die Ordnerstruktur soll analog zum Muster aufgesetzt werden.
 >
-> `docs(ihr-nachname): Reflexion Sprint 1`
+> Der Ordner `docs` wird von Anfang an benötigt und ist direkt im starter
+> vorgegeben.
