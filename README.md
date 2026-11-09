@@ -31,3 +31,59 @@ soll ermöglichen, dass ein Gesamtüberblick von Anfang an existiert.
 >
 > Der Ordner `docs` wird von Anfang an benötigt und ist direkt im starter
 > vorgegeben.
+
+## Lokale Entwicklung
+
+Voraussetzungen: Python 3.13 und Node.js 24+ (auch in `mise.toml` hinterlegt).
+
+```bash
+git clone https://github.com/leander-bbzbl/M324-Gruppe-2.git
+cd M324-Gruppe-2
+```
+
+### Backend
+
+```bash
+cd app/backend
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+python init_db.py
+python -m uvicorn main:app --reload
+```
+
+Unter http://127.0.0.1:8000 erscheint `{"message":"Hello World"}`.
+Die API-Dokumentation ist unter http://127.0.0.1:8000/docs erreichbar.
+`init_db.py` erstellt eine leere SQLite-Datenbank ohne Tabellen. Die Datei
+`app/backend/larpometer.sqlite3` wird nicht in Git gespeichert.
+
+### Frontend
+
+In einem zweiten Terminal, ausgehend vom Projektordner:
+
+```bash
+cd app/frontend
+npm ci
+npm run dev
+```
+
+Unter http://localhost:5173 erscheint die Startseite mit `Larpometer` und
+`Hello World`. Zum Beenden der Server jeweils `Ctrl+C` verwenden.
+
+### IDE und Linter
+
+In VS Code oder Cursor den Projektordner öffnen und die empfohlenen Erweiterungen
+aus `.vscode/extensions.json` installieren: **Python** und **Ruff**.
+Die Projekteinstellungen hinterlegen `app/backend/.venv` als Standard-Python-Umgebung
+und aktivieren die Python-Formatierung mit Ruff beim Speichern. Falls bereits ein
+anderer Interpreter gewählt ist, über `Python: Select Interpreter` zu
+`app/backend/.venv` wechseln.
+
+Diese Prüfungen aus dem Projektordner ausführen:
+
+```bash
+app/backend/.venv/bin/python -m ruff check app/backend
+app/backend/.venv/bin/python -m ruff format --check app/backend
+npm --prefix app/frontend run lint
+npm --prefix app/frontend run build
+```
