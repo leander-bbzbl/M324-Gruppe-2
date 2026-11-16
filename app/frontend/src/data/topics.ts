@@ -18,10 +18,10 @@ export const topics: Topic[] = [
       'Der bekannteste Minecraft-Server mit Bedwars, Skyblock und Co. Bist du ein echter Spieler oder nur ein Mitläufer?',
   },
   {
-    id: 'berserk',
-    name: 'Berserk',
+    id: 'detective-conan',
+    name: 'Detektiv Conan',
     description:
-      'Der Dark-Fantasy-Manga von Kentaro Miura rund um Guts und Griffith. Hast du ihn wirklich gelesen?',
+      'Ein Anime über einen Detektiv, der in einen Kinderkörper geschrumpft wurde. Weisst du genug über die Serie?',
   },
   {
     id: 'photography',
