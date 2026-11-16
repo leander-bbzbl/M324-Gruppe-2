@@ -1,7 +1,7 @@
 export interface Topic {
-  id: string
-  name: string
-  description: string
+  id: string;
+  name: string;
+  description: string;
 }
 
 export const topics: Topic[] = [
@@ -29,4 +29,4 @@ export const topics: Topic[] = [
     description:
       'Blende, Belichtungszeit und ISO. Kennst du dich mit Kameras aus oder hast du nur einen Filter drauf?',
   },
-]
+];
