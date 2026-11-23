@@ -1,9 +1,9 @@
-import type { Topic } from '../data/topics'
+import type { Topic } from '../data/topics';
 
 interface TopicCardProps {
-  topic: Topic
-  selected: boolean
-  onSelect: (id: string) => void
+  topic: Topic;
+  selected: boolean;
+  onSelect: (id: string) => void;
 }
 
 function TopicCard({ topic, selected, onSelect }: TopicCardProps) {
@@ -17,7 +17,7 @@ function TopicCard({ topic, selected, onSelect }: TopicCardProps) {
       <h2>{topic.name}</h2>
       <p>{topic.description}</p>
     </button>
-  )
+  );
 }
 
-export default TopicCard
+export default TopicCard;

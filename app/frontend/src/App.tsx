@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import './App.css'
-import TopicCard from './components/TopicCard'
-import { topics } from './data/topics'
+import { useState } from 'react';
+import './App.css';
+import TopicCard from './components/TopicCard';
+import { topics } from './data/topics';
 
 function App() {
-  const [selectedTopicId, setSelectedTopicId] = useState<string | null>(null)
+  const [selectedTopicId, setSelectedTopicId] = useState<string | null>(null);
 
   return (
     <main>
@@ -21,7 +21,7 @@ function App() {
         ))}
       </section>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
