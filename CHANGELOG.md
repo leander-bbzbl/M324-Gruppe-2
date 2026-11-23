@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0](https://github.com/leander-bbzbl/M324-Gruppe-2/compare/v1.0.0...v1.1.0) (2026-11-23)
+
+
+### Features
+
+* add prettier code formatter configuration ([5736dc9](https://github.com/leander-bbzbl/M324-Gruppe-2/commit/5736dc949822113ff246bdad026b75064007b7d7))
+* add topic data structure ([05d30bd](https://github.com/leander-bbzbl/M324-Gruppe-2/commit/05d30bd77a5e587935c2fba064eb67e0d8e4d037))
+* add topic data structure ([01ae81b](https://github.com/leander-bbzbl/M324-Gruppe-2/commit/01ae81b2ef101429a8f02b158c75f770b8afbd1f))
+
 ## 1.0.0 (2026-11-16)
 
 
